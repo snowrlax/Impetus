@@ -1,0 +1,47 @@
+body{
+    top: none;
+    left: none;
+}
+
+/* Navbar Brand */
+.navbar-brand{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2rem;
+    color: #FB6376;
+}
+
+/* Headings */
+.big-headings{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    /* font-style: italic; */
+    color:#5D2A42;
+}
+
+.medium-headings{
+    font-size: 0.8 rem;
+}
+
+.small-headings{
+    font-size: 0.5 rem;
+}
+
+/* Sections */
+.colored-section{
+    height: 100vh;
+    background-color:#FFF9EC;
+}
+
+.white-section{
+    height: 100vh;
+}
+
+/* Images */
+.title-image{
+    width: 30%;
+    /* transform: rotate(25deg); */
+    position: absolute; 
+    right: 15%;
+    top: 20%;
+}
