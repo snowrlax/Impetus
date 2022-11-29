@@ -127,7 +127,7 @@ a:hover {
 }
 
 .section-products #product-1 .part-1::before {
-    background: url(/Impetus/images/products/10w-30bgrem.png) no-repeat center;
+    background: url(10w-30bgrem.png) no-repeat center;
     background-color: #444444;
     background-size: cover;
     transition: all 0.3s;
