@@ -126,7 +126,7 @@ a:hover {
 }
 
 .section-products #product-1 .part-1::before {
-    background: url(10w-30bgrem.png) no-repeat center;
+    background: url(../images/products/10w-30bgrem.png) no-repeat center;
     background-color: #e9e9e9;
     background-size: cover;
     transition: all 0.3s;
