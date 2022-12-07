@@ -1,76 +1,15 @@
-body{
-    text-align: center;
-}
-
-/* Navbar Brand */
-.navbar-brand {
-    font-family: 'Abril Fatface', cursive;
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FB6376;
-}
-
-/* Headings */
-.big-headings {
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
-    font-size: 4rem;
-    /* font-style: italic; */
-    color: #5D2A42;
-}
-
-.medium-headings {
-    font-size: 0.8 rem;
-}
-
-.small-headings {
-    font-size: 0.5 rem;
-}
-
-/* Title */
-#title {
-    height: 100vh;
-}
-
-#title .container-fluid {
-    padding: 3% 15% 7%;
-}
 
 /* Container */
 .container-fluid {
     padding: 7% 15%;
 }
 
-
-/* Sections */
-.colored-section {
-    background-color: #FFF9EC;
-    /* height: 100vh; */
-}
-
-.white-section {
-    /* height: 100vh; */
-}
-
-/* Images */
-.title-image {
-    width: 30%;
-    /* transform: rotate(25deg); */
-    position: absolute;
-    right: 15%;
-    top: 20%;
+/* Navbar */
+div#navbar.container-fluid {
+    padding: 2% 15%;
 }
 
 /* Products */
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap'); */
-
-/* body {
-    font-family: "Poppins", sans-serif;
-    color: #444444;
-} */
-
 a,
 a:hover {
     text-decoration: none;
@@ -103,8 +42,8 @@ a:hover {
 
 .section-products .single-product .part-1 {
     position: relative;
-    height: 290px;
-    max-height: 290px;
+    height: 200px;
+    max-height: 200px;
     margin-bottom: 20px;
     overflow: hidden;
 }
@@ -191,18 +130,15 @@ a:hover {
     transform: translateY(-50%);
 }
 
-.feature-box{
-    padding: 5%;
-}
-
-/* Mobile first view */
-@media screen and (max-width: 770px) {
-    .navbar-brand {
-        font-size: 1.4rem;
-
+@media screen and (max-width: 450px) {
+    .section-products .single-product .part-1 {
+        height: 150px;
+        max-height: 150px;
     }
-
-    .big-headings {
-        font-size: 2rem;
+}
+@media screen and (min-width: 450px) and (max-width: 640px) {
+    .section-products .single-product .part-1 {
+        height: 200px;
+        max-height: 200px;
     }
 }
