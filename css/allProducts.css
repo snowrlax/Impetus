@@ -1,3 +1,6 @@
+body {
+    text-align: center;
+}
 
 /* Container */
 .container-fluid { 
@@ -7,6 +10,21 @@
 /* Navbar */
 div#navbar.container-fluid {
     padding: 3% 15% 0%;
+}
+
+.nav-item {
+    text-align: left;
+    padding: 0 30px 0 30px;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FB6376;
 }
 
 /* Button */
@@ -138,6 +156,15 @@ a:hover {
     background-color: #444444;
     transform: translateY(-50%);
 }
+
+/* Footer */
+#footer {
+    background-color: #4d4d4d;
+    color: #ececec;
+}
+
+.footerIco {}
+
 
 @media screen and (max-width: 450px) {
     .section-products .single-product .part-1 {
