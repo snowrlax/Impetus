@@ -54,7 +54,7 @@
               <a class="nav-link medium-headings" href="../index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
           </ul>
         </div>
@@ -65,22 +65,22 @@
   <!-- Product Category navigation -->
   <section class="categoryNav" id="category">
     <div class="container-fluid">
-      <div class="row justify-content-center">
-        <a href="#auto">
-          <div class="col-md-4">
-            Automotive Oil
-          </div>
-        </a>
-        <a href="#industrial">
-          <div class="col-md-4">
-            Industrial Oil
-          </div>
-        </a>
-        <a href="#grease">
-          <div class="col-md-4">
-            Grease
-          </div>
-        </a>
+      <div class="row ">
+        <div class="col-md-4">
+          <a href="#auto">
+            <h2 class="header">Automotive Oil</h2>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#industrial">
+            <h2 class="header">Industrial Oil</h2>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#grease">
+            <h2 class="header">Grease</h2>
+          </a>
+        </div>
 
       </div>
     </div>
@@ -88,12 +88,13 @@
 
   <!-- Products -->
   <section class="section-products" id="products">
-    <div class="container-fluid">
+    <!-- vehicles -->
+    <div id="auto" class="container-fluid vehicles">
       <div class="row justify-content-center text-center">
         <div class="col-md-8 col-lg-6">
           <div class="header">
             <h3>Featured Product</h3>
-            <h2 id="auto">Automotive</h2>
+            <h2>Automotive</h2>
           </div>
         </div>
       </div>
@@ -111,6 +112,7 @@
             </div>
           </div>
         </div>
+
         <!-- Single Product -->
         <div class="col-md-6 col-lg-3 col-xl-3 col-6">
           <div id="product-2" class="single-product">
@@ -123,6 +125,7 @@
             </div>
           </div>
         </div>
+
         <!-- Single Product -->
         <div class="col-md-6 col-lg-3 col-xl-3 col-6">
           <div id="product-3" class="single-product">
@@ -136,6 +139,7 @@
             </div>
           </div>
         </div>
+
         <!-- Single Product -->
         <div class="col-md-6 col-lg-3 col-xl-3 col-6">
           <div id="product-4" class="single-product">
@@ -149,15 +153,12 @@
             </div>
           </div>
         </div>
+
         <!-- View All  -->
-        <div class="row justify-content-center text-center productBtn">
-          <div class="col-md-8 col-lg-6">
-            <button type="button" class="btn btn-dark btn-lg download-button" data-bs-toggle="collapse"
-              data-bs-target="#collapseProducts1" aria-expanded="false" aria-controls="collapseProducts1"><i
-                class="fa-brands fa-apple"></i>
-              View All</button>
-          </div>
-        </div>
+        <button type="button" class="btn btn-dark btn-lg download-button" data-bs-toggle="collapse"
+          data-bs-target="#collapseProducts1" aria-expanded="false" aria-controls="collapseProducts1">
+          View All</button>
+
       </div>
 
       <!-- Collapsed Products 1 -->
@@ -187,15 +188,16 @@
             </div>
           </div>
         </div>
-
       </div>
+    </div>
 
+    <!-- Industrial -->
+    <div id="industrial" class="container-fluid industrial">
       <div class="row product-section">
 
         <div class="header">
-          <h2 id="industrial">Industrial</h2>
+          <h2>Industrial</h2>
         </div>
-
 
         <!-- Single Product -->
         <div class="col-md-6 col-lg-3 col-xl-3 col-6">
@@ -210,6 +212,7 @@
             </div>
           </div>
         </div>
+
         <!-- Single Product -->
         <div class="col-md-6 col-lg-3 col-xl-3 col-6">
           <div id="product-2" class="single-product">
@@ -222,6 +225,7 @@
             </div>
           </div>
         </div>
+
         <!-- Single Product -->
         <div class="col-md-6 col-lg-3 col-xl-3 col-6">
           <div id="product-3" class="single-product">
@@ -235,6 +239,7 @@
             </div>
           </div>
         </div>
+
         <!-- Single Product -->
         <div class="col-md-6 col-lg-3 col-xl-3 col-6">
           <div id="product-4" class="single-product">
@@ -248,15 +253,12 @@
             </div>
           </div>
         </div>
+
         <!-- View All  -->
-        <div class="row justify-content-center text-center productBtn">
-          <div class="col-md-8 col-lg-6">
-            <button type="button" class="btn btn-dark btn-lg download-button" data-bs-toggle="collapse"
-              data-bs-target="#collapseProducts2" aria-expanded="false" aria-controls="collapseProducts2"><i
-                class="fa-brands fa-apple"></i>
-              View All</button>
-          </div>
-        </div>
+        <button type="button" class="btn btn-dark btn-lg download-button" data-bs-toggle="collapse"
+          data-bs-target="#collapseProducts2" aria-expanded="false" aria-controls="collapseProducts2">
+          View All</button>
+
       </div>
 
       <!-- Collapsed Products 2 -->
@@ -288,10 +290,12 @@
         </div>
 
       </div>
+    </div>
 
-      <!-- Grease -->
+    <!-- Grease -->
+    <div class="container-fluid" id="grease">
       <div class="header">
-        <h2 id="grease">Grease</h2>
+        <h2>Grease</h2>
       </div>
 
       <div class="row product-section">
@@ -308,6 +312,7 @@
             </div>
           </div>
         </div>
+
         <!-- Single Product -->
         <div class="col-md-6 col-lg-3 col-xl-3 col-6">
           <div id="product-2" class="single-product">
@@ -320,6 +325,7 @@
             </div>
           </div>
         </div>
+
         <!-- Single Product -->
         <div class="col-md-6 col-lg-3 col-xl-3 col-6">
           <div id="product-3" class="single-product">
@@ -333,6 +339,7 @@
             </div>
           </div>
         </div>
+
         <!-- Single Product -->
         <div class="col-md-6 col-lg-3 col-xl-3 col-6">
           <div id="product-4" class="single-product">
@@ -346,15 +353,12 @@
             </div>
           </div>
         </div>
+
         <!-- View All  -->
-        <div class="row justify-content-center text-center productBtn">
-          <div class="col-md-8 col-lg-6">
-            <button type="button" class="btn btn-dark btn-lg download-button" data-bs-toggle="collapse"
-              data-bs-target="#collapseProducts3" aria-expanded="false" aria-controls="collapseProducts3"><i
-                class="fa-brands fa-apple"></i>
-              View All</button>
-          </div>
-        </div>
+        <button type="button" class="btn btn-dark btn-lg download-button" data-bs-toggle="collapse"
+          data-bs-target="#collapseProducts3" aria-expanded="false" aria-controls="collapseProducts3">
+          View All</button>
+
       </div>
 
       <!-- Collapsed Products 3 -->
@@ -387,6 +391,7 @@
 
       </div>
     </div>
+
   </section>
 
   <!-- Footer -->
@@ -397,7 +402,7 @@
       <i class="fa-brands fa-facebook footerIco"></i>
       <i class="fa-brands fa-instagram footerIco"></i>
       <i class="fa-solid fa-envelope footerIco"></i>
-      <p>© Copyright Impetus Lubricants</p>
+      <p>©Copyright Impetus Lubricants</p>
     </div>
   </footer>
 

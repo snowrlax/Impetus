@@ -32,6 +32,11 @@ div#navbar.container-fluid {
     padding: 0 0 5%;
 }
 
+/* Product navigation */
+.header{
+    margin-bottom: 1.5rem;
+}
+
 /* product-section */
 .product-section{
     padding: 0 0 7%;
