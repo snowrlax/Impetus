@@ -8,6 +8,11 @@ body {
 }
 
 /* Navbar */
+
+.logo{
+    margin: 0 10px 0 0;
+}
+
 div#navbar.container-fluid {
     padding: 3% 15% 0%;
 }

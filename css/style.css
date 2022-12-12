@@ -4,7 +4,7 @@ body {
 
 /* Navbar Brand */
 .logo{
-    margin: 10px;
+    margin: 0 10px 0 0; 
 }
 
 .navbar-brand {
@@ -40,7 +40,7 @@ body {
 
 /* Title */
 #title {
-    height: 100vh;
+    height: 50vh;
 }
 
 #title .container-fluid {
@@ -164,24 +164,40 @@ a:hover {
 }
 
 .section-products #product-1 .part-1::before {
-    background: url(../images/product-category/Automotive.png) no-repeat center;
+    background: url(../images/products/10w-30-synthetic.png) no-repeat center;
     background-color: #ffffff;
     background-size: cover;
     transition: all 0.3s;
 }
 
 .section-products #product-2 .part-1::before {
-    background: url(../images/product-category/Grease.png) no-repeat center;
+    background: url(../images/products/15w-40-engine-oil.png) no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-3 .part-1::before {
-    background: url(../images/product-category/Industrial.png) no-repeat center;
+    background: url(../images/products/4t-gold-1.png) no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-4 .part-1::before {
-    background: url(../images/product-category/Special-oil.png) no-repeat center;
+    background: url(../images/products/anti-freeze-coolant.png) no-repeat center;
+    background-size: cover;
+}
+.section-products #product-5 .part-1::before {
+    background: url(../images/products/4T-gold-2.png) no-repeat center;
+    background-size: cover;
+}
+.section-products #product-6 .part-1::before {
+    background: url(../images/products/4T-gold.png) no-repeat center;
+    background-size: cover;
+}
+.section-products #product-7 .part-1::before {
+    background: url(../images/products/power-cruise-oil-20w-40-40t.png) no-repeat center;
+    background-size: cover;
+}
+.section-products #product-8 .part-1::before {
+    background: url(../images/products/super-2t-oil.png) no-repeat center;
     background-size: cover;
 }
 
@@ -203,7 +219,7 @@ a:hover {
 }
 
 .section-products .single-product .part-2 .product-title {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-top: 0;
 }
 
