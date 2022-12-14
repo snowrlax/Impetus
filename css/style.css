@@ -33,12 +33,14 @@ body {
 
 .medium-headings {
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 /* Most medium headings are also title headings */
 .title-headings{
     padding: 25px 10px 20px;
+
 }
 
 .small-headings {
@@ -260,7 +262,10 @@ color: #444444;
 .about-title{
     padding: 0 0 10px;
 }
-
+.about-icon{
+    padding: 0 10px 0;
+    margin: 2px;
+}
 
 /* Footer */
 #footer {
