@@ -31,20 +31,22 @@ body {
 }
 
 .medium-headings {
-    font-size: 0.8 rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* Most medium headings are also title headings */
+.title-headings{
+    padding: 10px;
 }
 
 .small-headings {
-    font-size: 0.5 rem;
+    font-size: 1rem;
 }
 
 /* Title */
 #title {
     height: 50vh;
-}
-
-#title .container-fluid {
-    padding: 3% 15% 7%;
 }
 
 #titleLine {
@@ -82,25 +84,10 @@ body {
 }
 
 .white-section {
-    /* height: 100vh; */
-}
-
-/* Images */
-.title-image {
-    width: 30%;
-    /* transform: rotate(25deg); */
-    position: absolute;
-    right: 15%;
-    top: 20%;
+    
 }
 
 /* Products */
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap'); */
-
-/* body {
-    font-family: "Poppins", sans-serif;
-    color: #444444;
-} */
 
 a,
 a:hover {
@@ -121,12 +108,12 @@ a:hover {
     color: #fe302f;
     font-weight: 500;
 }
-
+/* 
 .section-products .header h2 {
-    font-size: 2.2rem;
-    font-weight: 400;
-    color: #444444;
-}
+font-size: 2.2rem;
+font-weight: 400;
+color: #444444;
+} */
 
 .section-products .single-product {
     margin-bottom: 26px;
@@ -258,13 +245,21 @@ a:hover {
 }
 
 .feature-box {
-    padding: 5%;
+    padding: 10% 13%;
 }
 
-#features h2{
-    margin-bottom: 30px;
-    font-size: 2.5rem;
+/* ABOUT US */
+#about{}
+
+.about-box{
+    margin: 2%;
+    padding: 10% 5%;
 }
+
+.about-title{
+    padding: 0 0 10px;
+}
+
 
 /* Footer */
 #footer {
