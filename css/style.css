@@ -80,7 +80,7 @@ body {
 /* Sections */
 .colored-section {
     background-color: #FFF9EC;
-    /* height: 100vh; */
+    color: #5d2a42;
 }
 
 .white-section {
@@ -238,9 +238,11 @@ color: #444444;
 .features-icon {
     transition: 0.3s;
 }
-
+.features-icon {
+    color: #5d2a42;
+}
 .features-icon:hover {
-    color: #3b50f1;
+    color: #a56283;
 
 }
 
