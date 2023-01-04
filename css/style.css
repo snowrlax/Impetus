@@ -105,6 +105,26 @@ body {
     
 }
 
+/* Product Table section */
+#prodTable{
+    margin: 0;
+    text-align: left;
+}
+
+#prodTable.container-fluid{
+    padding: 7% 8%;
+}
+
+.productTable{
+    background-color: #fbfbfb;
+}
+
+.tablebtn{
+    background-color: #5d2a42;
+    color: #fbfbfb;
+    margin: 9% 0 0 0;
+}
+
 /* Products */
 a,
 a:hover {
