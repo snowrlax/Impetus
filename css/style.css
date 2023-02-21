@@ -3,10 +3,11 @@ body {
 }
 
 /* Navbar Brand */
-.logo{
-    margin: 0 10px 0 0; 
+.logo {
+    margin: 0 10px 0 0;
 }
-#logotext{
+
+#logotext {
     font-family: 'Abril Fatface', cursive;
     font-size: 1.5rem;
     color: #FB6376;
@@ -14,12 +15,14 @@ body {
     justify-content: center;
     align-items: center;
 }
-.nav-ele{
+
+.nav-ele {
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .navbar-brand {
     font-family: 'Abril Fatface', cursive;
     font-size: 1.5rem;
@@ -36,7 +39,7 @@ body {
 }
 
 /* Navbar Button */
-.navbar-toggler{
+.navbar-toggler {
     margin: 0 0 0 10px;
 }
 
@@ -55,7 +58,7 @@ body {
 }
 
 /* Most medium headings are also title headings */
-.title-headings{
+.title-headings {
     padding: 25px 10px 20px;
 }
 
@@ -66,7 +69,7 @@ body {
 /* Title */
 #title {
     height: 50vh;
-    
+
 }
 
 #titleLine {
@@ -75,7 +78,7 @@ body {
 
 /* Head */
 
-#head .container-fluid{
+#head .container-fluid {
     padding: 0 15% 0;
 }
 
@@ -84,13 +87,13 @@ body {
     padding: 7% 15%;
 }
 
-#head.container-fluid{
+#head.container-fluid {
     padding: 0 15%;
 }
 
 /* Title container-fluid */
 
-.title-container{
+.title-container {
     padding: 4% 15%;
 }
 
@@ -101,29 +104,52 @@ body {
     color: #5d2a42;
 }
 
-.white-section {
-    
+.white-section {}
+
+
+
+/* PRODUCT COLLAPSED PRODUCT SECTION */
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
 }
 
-/* Product Table section */
-#prodTable{
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.cont {
+    padding: 7% 10%;
+    margin: 5% 7%;
+    text-align: justify;
+
+
+    &:after {
+        content: "";
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+.prod-row {
+    padding: 7% 10%;
     margin: 0;
-    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#prodTable.container-fluid{
-    padding: 7% 8%;
+.product-title-collapsed {
+    padding: 3px;
+    background-color: #39FF14;
+    border-radius: 5%;
 }
 
-.productTable{
-    background-color: #fbfbfb;
-}
 
-.tablebtn{
-    background-color: #5d2a42;
-    color: #fbfbfb;
-    margin: 9% 0 0 0;
-}
+
 
 /* Products */
 a,
@@ -145,6 +171,7 @@ a:hover {
     color: #fe302f;
     font-weight: 500;
 }
+
 /* 
 .section-products .header h2 {
 font-size: 2.2rem;
@@ -208,18 +235,22 @@ color: #444444;
     background: url(../images/products/anti-freeze-coolant.png) no-repeat center;
     background-size: cover;
 }
+
 .section-products #product-5 .part-1::before {
     background: url(../images/products/4T-gold-2.png) no-repeat center;
     background-size: cover;
 }
+
 .section-products #product-6 .part-1::before {
     background: url(../images/products/4T-gold.png) no-repeat center;
     background-size: cover;
 }
+
 .section-products #product-7 .part-1::before {
     background: url(../images/products/power-cruise-oil-20w-40-40t.png) no-repeat center;
     background-size: cover;
 }
+
 .section-products #product-8 .part-1::before {
     background: url(../images/products/super-2t-oil.png) no-repeat center;
     background-size: cover;
@@ -275,9 +306,11 @@ color: #444444;
 .features-icon {
     transition: 0.3s;
 }
+
 .features-icon {
     color: #5d2a42;
 }
+
 .features-icon:hover {
     color: #a56283;
 
@@ -288,25 +321,25 @@ color: #444444;
 }
 
 /* ABOUT US */
-#about{}
+#about {}
 
-.about-box{
+.about-box {
     /* margin: 2%; */
     padding: 5% 2%;
 }
 
-.about-title{
+.about-title {
     padding: 0 0 10px;
 }
 
-.mdname{
+.mdname {
     padding: 4%;
 }
 
 
 /* Footer */
 
-.whatsappQr{
+.whatsappQr {
     margin: 15px 0 15px 0;
     border-radius: 5%;
     width: 70%;
@@ -328,19 +361,20 @@ color: #444444;
         font-size: 1.5rem;
 
     }
-    .title-container{
+
+    .title-container {
         padding: 6% 15%;
     }
-    
+
     .big-headings {
         font-size: 2.2rem;
     }
-    
-    .feature-box{
+
+    .feature-box {
         padding: 10% 13%;
     }
 
-    .about-box{
+    .about-box {
         padding: 10% 5%;
     }
 }
